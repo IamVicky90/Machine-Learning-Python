@@ -1,0 +1,19 @@
+from sklearn.linear_model import LinearRegression:
+    Linear Regression:
+        Scores are:  [4.19929571 4.46061573 4.97617746 6.33922154 5.2726611 ]
+        Mean:  5.049594308709716
+        Standered deviation:  0.7467517244409508
+
+
+from sklearn.tree import DecisionTreeRegressor
+    Decision Tree Regressor:
+        Scores are:  [4.26200556 4.16134475 5.3641471  5.75271273 3.91945468]
+        Mean:  4.691932961791641
+        Standered deviation:  0.7266649392291897
+
+
+from sklearn.ensemble import RandomForestRegressor
+    Random Forest Regressor:
+        Scores are:  [2.76896193 3.58047898 3.31138191 4.093472   3.19347925]
+        Mean:  3.3895548137541014
+        Standered deviation:  0.4385529863895711

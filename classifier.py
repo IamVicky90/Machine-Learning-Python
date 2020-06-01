@@ -4,6 +4,7 @@ iris=datasets.load_iris()
 features=iris.data
 # print("f",features)
 labels=iris.target
+print(labels)
 # print(features[0],labels[0])
 clf=KNeighborsClassifier()
 clf.fit(features,labels)
